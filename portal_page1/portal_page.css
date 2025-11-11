@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background-color: #f0c808;
+}
+header{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    margin: 0 auto;
+}
+header nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+}
+header nav img{
+    max-width: 100px;
+    grid-column: 3 / 4;
+    margin: 0 auto;
+}
+#logo_link{ 
+    display: flex;
+    justify-content: center;
+}
+.Home{
+    grid-column: 1 / 2;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+    padding: 40px;
+}
+.WWR{
+    grid-column: 2 / 3;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+    padding: 40px;
+} 
+.ICE{
+    grid-column: 4 / 5;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+    padding: 40px;
+} 
+ul{
+    text-align: center;
+}
+.About_Me{
+    grid-column: 5 / 6;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+    padding: 40px;
+}
+main{
+    font-family: cursive;
+    text-decoration: none;
+    padding: 11%;
+    color: black;
+}
+table{
+    margin: 10px auto;
+}
+footer{
+    background-color: #07a0c3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+footer img{
+    padding: 10px;
+
+}

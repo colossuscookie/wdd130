@@ -1,0 +1,30 @@
+body{
+background-color: beige;
+}
+header{
+    background-color: blanchedalmond;
+    text-align: center;
+    height: 50px;
+    text-emphasis: none;
+}
+header nav a{
+    text-decoration: none;
+}
+*{
+    border: 2px solid red;
+}
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    display: inline-block;
+}
+footer{
+    text-align: center;text-decoration: underline;
+}
+.container{ 
+    border: 5px solid white; 
+    display: inline-block;
+}
