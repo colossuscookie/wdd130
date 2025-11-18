@@ -69,12 +69,11 @@ table{
 footer{
     background-color: #07a0c3;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    max-width: 100%;
+
     display: flex;
     justify-content: space-between;
     text-decoration: none;
 }
 footer img{
     padding: 10px;
-
 }
